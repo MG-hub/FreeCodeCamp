@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Italianno&display=swap');
+
+      #main {
+        background-color: #e2e2e2;
+        border-radius: 2%;
+        display: grid;
+      }
+      #body {
+        background-color: #cecece;
+      }
+
+      #title {
+        text-align: center;
+        font-size: 100px;
+        margin: 10px;
+        font-family: 'Italianno', cursive;
+        font-stretch: condensed;
+      }
+      #img-div {
+        background-color: #f6f6f5;
+        width: 70%;
+        margin: auto;
+        display: table;
+        padding-top: 20px;
+      }
+      #image {
+        max-width: 75%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+      }
+      #img-caption {
+        font-size: 18px;
+        text-align: center;
+      }
+      #tribute-info {
+        font-size: 20px;
+        padding-top: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        text-indent: 40px;
+        line-height: 25px;
+      }
+      #info {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+    </style>
+  </head>
+  <body id='body'>
+    <div id="main">
+      <h1 id="title">
+        Firefly
+      </h1>
+      <div id="img-div">
+        <img id="image"  src="https://i.pinimg.com/originals/4d/7e/5b/4d7e5b7ab1a6c4f7e5cd1f79cb901b7f.jpg"   alt="image">
+          <p id="img-caption"> Poster of the TV Show Firefly.</p>
+        </img>
+      </div>
+      <div id="tribute-info">
+        <p> Firefly is an American space Western drama television series which ran from 2002–2003,
+           created by writer and director Joss Whedon, under his Mutant Enemy Productions label.
+           Whedon served as an executive producer, along with Tim Minear. The series is set in the year 2517,
+            after the arrival of humans in a new star system and follows the adventures of the renegade crew of Serenity,
+            a "Firefly-class" spaceship. The ensemble cast portrays the nine characters who live on Serenity.
+            Whedon pitched the show as "nine people looking into the blackness of space and seeing nine different things."
+
+            The show explores the lives of a group of people, some of whom fought on the losing side of a civil war,
+            who make a living on the fringes of society as part of the pioneer culture of their star system. In this future,
+            the only two surviving superpowers, the United States and China, fused to form the central federal government,
+            called the Alliance, resulting in the fusion of the two cultures. According to Whedon's vision,
+             "nothing will change in the future: technology will advance, but we will still have the same political,
+             moral, and ethical problems as today."<p>
+  <p id="info"><a id="tribute-link" href="https://en.wikipedia.org/wiki/Firefly_(TV_series)" target="_blank">Click here</a>
+     for more information about Firefly.</p>
+      </div>
+    </div>
+  </body>
+</html>
